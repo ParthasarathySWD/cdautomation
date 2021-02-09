@@ -21,6 +21,20 @@
 
       <v-spacer></v-spacer>
 
+      <v-btn
+        class="ma-2"
+        color="primary"
+        dark
+      >
+        Accept
+        <v-icon
+          dark
+          right
+        >
+          mdi-checkbox-marked-circle
+        </v-icon>
+      </v-btn>
+
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
@@ -30,18 +44,13 @@
         bottom
       >
         <template v-slot:activator="{ on, attrs }">
-          <!-- <v-btn
+          <v-btn
             icon
             v-bind="attrs"
             v-on="on"
           >
             <v-icon>mdi-dots-vertical</v-icon>
-          </v-btn> -->
-          <v-avatar color="indigo" size="34">
-            <v-icon dark>
-              mdi-account-circle
-            </v-icon>
-          </v-avatar>
+          </v-btn>
         </template>
 
         <v-list>
