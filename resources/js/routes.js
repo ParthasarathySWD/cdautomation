@@ -1,9 +1,14 @@
 import Home from "./components/Home.vue";
-import CreateUser from "./components/CreateUser.vue";
+import ImportPackage from "./components/ImportPackage.vue";
 
 export const routes = [
     {
         path: '/',
-        component: CreateUser
-    }
+        component: Home
+    },
+    {
+        path: '/ImportPackage',
+        component: ImportPackage
+    },
+    
 ]

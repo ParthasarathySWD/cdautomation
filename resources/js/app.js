@@ -9,11 +9,15 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import { routes } from './routes.js';
 import MainApp from './components/MainApp.vue';
+import Vuelidate from 'vuelidate'
 
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
 import Select2 from 'v-select2-component';
+
+Vue.use(Vuelidate)
+
 
 Vue.use(Vuetify)
 Vue.use(Select2)
