@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "@mdi/font": "^5.9.55",
-        "axios": "^0.21",
+        "axios": "^0.21.1",
         "bootstrap": "^4.0.0",
         "cross-env": "^7.0.3",
         "deepmerge": "^2.2.1",
@@ -27,9 +27,15 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "jquery-mask-plugin": "^1.14.16",
         "material-design-icons-iconfont": "^6.1.0",
+        "mdbootstrap": "^4.19.2",
         "popper.js": "^1.16.1",
+        "simple-line-icons": "^2.5.5",
+        "v-select2-component": "^0.4.3",
         "validate.js": "^0.13.1",
+        "vue-axios": "^3.2.4",
+        "vue-jquery-mask": "^2.0.0",
         "vue-router": "^3.5.1",
         "vuetify": "^2.4.3",
         "vuex": "^3.6.2"
