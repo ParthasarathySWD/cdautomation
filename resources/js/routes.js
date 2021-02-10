@@ -10,5 +10,4 @@ export const routes = [
         path: '/ImportPackage',
         component: ImportPackage
     },
-    
 ]
