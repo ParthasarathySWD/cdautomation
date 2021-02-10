@@ -4,6 +4,6 @@ import CreateUser from "./components/CreateUser.vue";
 export const routes = [
     {
         path: '/',
-        component: CreateUser
+        component: Home
     }
 ]
